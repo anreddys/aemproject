@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>test - UI apps</comment>
+<entry key="createdBy">M1055421</entry>
+<entry key="name">test.ui.apps</entry>
+<entry key="created">2020-05-09T22:26:04.533+0530</entry>
+<entry key="groupId">test</entry>
+<entry key="version">test</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">test</entry>
+<entry key="description">UI apps package for test</entry>
+<entry key="artifactId">test.ui.apps</entry>
+<entry key="path">/etc/packages/test/test.ui.apps.zip</entry>
+</properties>

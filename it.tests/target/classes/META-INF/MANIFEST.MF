@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1589043366096
+Build-Jdk: 1.8.0_201
+Built-By: M1055421
+Bundle-Description: Bundles for Integration Tests for test
+Bundle-ManifestVersion: 2
+Bundle-Name: test - Integration Tests Bundles
+Bundle-SymbolicName: test.it.tests
+Bundle-Version: 0.0.0.test
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.aem.test.it.tests;uses:="org.apache.sling.junit.anno
+ tations,org.junit,org.junit.runner";version="0.0.0"
+Import-Package: com.aem.test.core.models;version="[0.0,1)",org.apache.sl
+ ing.api.resource;version="[2.9,3)",org.apache.sling.junit.annotations;v
+ ersion="[1.0,2)",org.apache.sling.settings;version="[1.3,2)",org.junit;
+ version="[4.8,5)",org.junit.runner;version="[4.8,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Sling-Test-Regexp: .*Test
+Tool: Bnd-3.3.0.201609221906
