@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1589043361346
+Bnd-LastModified: 1589389889610
 Build-Jdk: 1.8.0_201
 Built-By: M1055421
 Bundle-Description: Core bundle for test
@@ -10,36 +10,35 @@ Bundle-Version: 0.0.0.test
 Created-By: Apache Maven Bundle Plugin
 Export-Package: com.aem.test.core.bean;version="0.0.0",com.aem.test.core
  ;version="1.0",com.aem.test.core.customosgiconfiguration;version="0.0.0
- ",com.aem.test.core.dbutil;version="0.0.0";uses:="org.slf4j",com.aem.te
- st.core.entity;version="0.0.0",com.aem.test.core.filters;version="0.0.0
- ";uses:="javax.servlet",com.aem.test.core.jsondata;version="0.0.0";uses
- :="org.json.simple",com.aem.test.core.listeners;version="0.0.0";uses:="
- org.osgi.service.event",com.aem.test.core.models;version="0.0.0";uses:=
- "javax.annotation,org.apache.sling.api.resource,org.apache.sling.models
- .annotations",com.aem.test.core.pojo;version="0.0.0";uses:="com.adobe.c
- q.sightly,com.aem.test.core.bean,com.aem.test.core.entity,com.day.cq.wc
- m.api",com.aem.test.core.schedulers;version="0.0.0",com.aem.test.core.s
- ervice;version="0.0.0",com.aem.test.core.serviceimpl;version="0.0.0";us
- es:="com.aem.test.core.service,org.json.simple",com.aem.test.core.servl
- ets;version="0.0.0";uses:="javax.servlet,org.apache.sling.api,org.apach
- e.sling.api.servlets"
+ ",com.aem.test.core.dbutil;uses:="org.slf4j";version="0.0.0",com.aem.te
+ st.core.entity;version="0.0.0",com.aem.test.core.filters;uses:="javax.s
+ ervlet";version="0.0.0",com.aem.test.core.jsondata;uses:="org.json.simp
+ le";version="0.0.0",com.aem.test.core.listeners;uses:="org.osgi.service
+ .event";version="0.0.0",com.aem.test.core.models;uses:="javax.annotatio
+ n,javax.inject,org.apache.sling.api.resource,org.apache.sling.models.an
+ notations";version="0.0.0",com.aem.test.core.pojo;uses:="com.adobe.cq.s
+ ightly,com.aem.test.core.bean,com.aem.test.core.entity,com.day.cq.wcm.a
+ pi";version="0.0.0",com.aem.test.core.schedulers;version="0.0.0",com.ae
+ m.test.core.service;version="0.0.0",com.aem.test.core.serviceimpl;uses:
+ ="com.aem.test.core.service,org.json.simple";version="0.0.0",com.aem.te
+ st.core.servlets;uses:="javax.servlet,org.apache.sling.api,org.apache.s
+ ling.api.servlets";version="0.0.0"
 Import-Package: com.adobe.cq.sightly;version="2.5.3",com.aem.test.core.b
- ean;version="[0.0,1)",com.aem.test.core.dbutil;version="[0.0,1)",com.ae
- m.test.core.entity;version="[0.0,1)",com.aem.test.core.jsondata;version
- ="[0.0,1)",com.aem.test.core.service;version="[0.0,1)",com.day.commons.
- datasource.poolservice;version="[1.1,2)",com.day.cq.commons;version="[6
- .0,7)",com.day.cq.dam.api;version="[1.16,2)",com.day.cq.wcm.api;version
- ="[1.17,2)",javax.annotation,javax.jcr;version="[2.0,3)",javax.servlet,
- javax.sql,org.apache.jackrabbit.commons;version="[2.4,3)",org.apache.sl
- ing.api;version="[2.3,3)",org.apache.sling.api.request;version="[2.4,3)
- ",org.apache.sling.api.resource;version="[2.9,3)",org.apache.sling.api.
- scripting;version="[2.2,3)",org.apache.sling.api.servlets;version="[2.1
- ,3)",org.apache.sling.commons.json;version="[2.0,3)",org.apache.sling.m
- odels.annotations;version="[1.2,2)",org.apache.sling.models.annotations
- .injectorspecific;version="[1.1,2)",org.apache.sling.settings;version="
- [1.3,2)",org.json.simple;version="[1.1,2)",org.json.simple.parser;versi
- on="[1.1,2)",org.osgi.service.event;version="[1.3,2)",org.slf4j;version
- ="[1.5,2)"
+ ean,com.aem.test.core.dbutil,com.aem.test.core.entity,com.aem.test.core
+ .jsondata,com.aem.test.core.service,com.day.commons.datasource.poolserv
+ ice;version="[1.1,2)",com.day.cq.commons;version="[6.0,7)",com.day.cq.d
+ am.api;version="[1.16,2)",com.day.cq.wcm.api;version="[1.17,2)",javax.a
+ nnotation,javax.inject;version="[0.0,1)",javax.jcr;version="[2.0,3)",ja
+ vax.servlet,javax.sql,org.apache.jackrabbit.commons;version="[2.4,3)",o
+ rg.apache.sling.api;version="[2.3,3)",org.apache.sling.api.request;vers
+ ion="[2.4,3)",org.apache.sling.api.resource;version="[2.9,3)",org.apach
+ e.sling.api.scripting;version="[2.2,3)",org.apache.sling.api.servlets;v
+ ersion="[2.1,3)",org.apache.sling.commons.json;version="[2.0,3)",org.ap
+ ache.sling.models.annotations;version="[1.2,2)",org.apache.sling.models
+ .annotations.injectorspecific;version="[1.1,2)",org.apache.sling.settin
+ gs;version="[1.3,2)",org.json.simple;version="[1.1,2)",org.json.simple.
+ parser;version="[1.1,2)",org.osgi.service.event;version="[1.3,2)",org.s
+ lf4j;version="[1.5,2)"
 Provide-Capability: osgi.service;objectClass:List<String>="com.aem.test.
  core.dbutil.DatabaseConnectionHelper",osgi.service;objectClass:List<Str
  ing>="com.aem.test.core.service.DamJsonOsgiServiceSightlyUsingWcmUsePoj
