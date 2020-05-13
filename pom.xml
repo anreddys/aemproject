@@ -436,7 +436,7 @@
                                     </goals>
                                     <configuration>
                                        <!--   <targetURL>http://${aem.publish.host}:${aem.publish.port}/crx/packmgr/service.jsp</targetURL>-->
-                                    <targetURL>http://localhost:4503/crx/packmgr/service.jsp</targetURL>
+                                    <targetURL>http://localhost:6754/crx/packmgr/service.jsp</targetURL>
                                     </configuration>
                                 </execution>
                             </executions>
